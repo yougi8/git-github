@@ -39,7 +39,34 @@ repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있
    * 저장소이름은 origin 등, `git remote -v`로 확인한 이름을 말한다.  
       * 따로 설정 안했다면, origin  
    * branch 이름은 github에 파일이 위치할 공간이다.  
-   <img src="https://user-images.githubusercontent.com/51251702/103765306-5189cd00-5060-11eb-8119-e194ff4b2d94.PNG" width="500" height="370"> <img src="https://user-images.githubusercontent.com/51251702/103765792-1dfb7280-5061-11eb-809b-1f71b2e022ad.PNG" width="500 height="370">  
-     -> main(왼) // master(오)    
-   
+      * 보통 main이나 master (잘 확인하자)  
+      * 새로운 branch를 만들어 그 이름을 사용하는 것도 가능  
+   <img src="https://user-images.githubusercontent.com/51251702/103765306-5189cd00-5060-11eb-8119-e194ff4b2d94.PNG" width="500" height="370">  
+    -> 사진의 경우, main이다.  
+    
+          $ git push origin master  
+          
+          혹은  
+          
+          $ git push origin main  
+          
+***
+
+### 파일 올리기는 성공!  
+
+### 7. 리모트 저장소 이름 변경  
+`git remote rename 기존이름 새이름`  
+         
+         $ git remote rename origin study  
+         
+ origin으로 되어있던 이름이 study로 바뀜  
+ -> push할 때 study로 사용해야함  
+ 
+### 8. 리모트 저장소 추가  
+`git remote add 이름 주소`  
+  * 원하는 이름을 지정하고 repository주소를 입력하면 추가 완료!  
+     
+         $ git remote add new https://github.com/yougi8/new  
+         
+         
     
