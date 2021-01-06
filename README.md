@@ -9,6 +9,6 @@
          
 ### 2. repository 이름 확인  
 
-    $ git remote -v  
+         $ git remote -v  
 
     
