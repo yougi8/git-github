@@ -8,7 +8,7 @@
          $ git clone https://github.com/yougi8/git-github  
          
 ### 2. repository 이름 확인  
-repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있다.
+repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있다.  
 
          $ git remote -v  
          
@@ -32,7 +32,7 @@ repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있
 `git commit -m "여기에 작성"`  
    * github에 올라갈 때 간단한 설명?처럼 올라가는 멘트  
       
-        $ git commit -m "first commit"  
+         $ git commit -m "first commit"  
         
 ### 6. push  
 `git push 저장소이름 branch이름`  
