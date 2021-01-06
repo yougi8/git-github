@@ -39,8 +39,7 @@ repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있
    * 저장소이름은 origin 등, `git remote -v`로 확인한 이름을 말한다.  
       * 따로 설정 안했다면, origin  
    * branch 이름은 github에 파일이 위치할 공간이다.  
-   <img src="https://user-images.githubusercontent.com/51251702/103765306-5189cd00-5060-11eb-8119-e194ff4b2d94.PNG" width="500" height="370">
-   <img src="https://user-images.githubusercontent.com/51251702/103765792-1dfb7280-5061-11eb-809b-1f71b2e022ad.PNG" width="500 height="370">
+   <img src="https://user-images.githubusercontent.com/51251702/103765306-5189cd00-5060-11eb-8119-e194ff4b2d94.PNG" width="500" height="370"> <img src="https://user-images.githubusercontent.com/51251702/103765792-1dfb7280-5061-11eb-809b-1f71b2e022ad.PNG" width="500 height="370">  
      -> main(왼) // master(오)    
    
     
