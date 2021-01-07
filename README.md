@@ -50,6 +50,10 @@ repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있
           
           $ git push origin main  
           
+   * pull 해보라는 오류가 뜬다면, 저장소를 clone한 이후에 github 상에서 뭔가를 고쳤기 때문일 것이다.  
+     그럴 때는 `git pull`을 한 후에  
+     다시 bash를 작동시켜서 push를 진행해보면 정상적으로 올라간 것을 알 수 있다!  
+          
 ***
 
 ### 파일 올리기는 성공!  
