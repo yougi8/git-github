@@ -72,5 +72,12 @@ repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있
      
          $ git remote add new https://github.com/yougi8/new  
          
+### 9. 리모트 저장소 삭제   
+`git remote remove 이름`  
+ 
+      $ git remote remove origin  
+      
+      
+         
          
     
