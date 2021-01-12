@@ -12,7 +12,7 @@
   `git pull`  
     * github 상에서 repository의 수정이 생겼을 수 있으니, `git pull`을 사용해서 최신 정보를 업데이트 해준다.  
     
-            $ git pull   
+           $ git pull   
          
          
 ### 2. repository 이름 확인  
