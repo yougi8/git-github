@@ -12,7 +12,7 @@
   `git pull`  
     * github 상에서 repository의 수정이 생겼을 수 있으니, `git pull`을 사용해서 최신 정보를 업데이트 해준다.  
     
-         $ git pull  
+         $ git pull   
                          
 ### 2. repository 이름 확인  
 repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있다.  
