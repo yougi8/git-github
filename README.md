@@ -1,12 +1,19 @@
 ## 'github'에 파일 올리기  
 
-### 1. repository와 연결시키기(repository 생성 후 처음 연결할 때만)  
-`git clone 주소`  
+### 1. repository와 연결시키기
+* repository 생성 후 처음 연결할 때    
+ `git clone 주소`  
    * 'origin'이라는 리모트 저장소가 자동으로 등록 => 저장소 이름이 'origin'  
    * 해당 위치에 repository에 있는 것들이 복사되어서 저장
 
          $ git clone https://github.com/yougi8/git-github  
          
+ * 이미 clone을 완료하고, 파일을 추가해서 올리는 경우  
+  `git pull`  
+    * github 상에서 repository의 수정이 생겼을 수 있으니, `git pull`을 사용해서 최신 정보를 업데이트 해준다.  
+    
+         $ git pull  
+                         
 ### 2. repository 이름 확인  
 repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있다.  
 
@@ -49,10 +56,6 @@ repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있
           혹은  
           
           $ git push origin main  
-          
-   * pull 해보라는 오류가 뜬다면, 저장소를 clone한 이후에 github 상에서 뭔가를 고쳤기 때문일 것이다.  
-     그럴 때는 `git pull`을 한 후에  
-     다시 bash를 작동시켜서 push를 진행해보면 정상적으로 올라간 것을 알 수 있다!  
           
 ***
 
