@@ -80,6 +80,14 @@ repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있
 `git remote remove 이름`  
  
       $ git remote remove origin  
+     
+### 10. repository 이름 변경 후 
+ * github 상에서 setting -> 원하는 이름으로 변경한다.  
+ * git bash에서  `git remote set-url 리모트저장소이름 바뀐저장소주소` 하면 된다  
+ 
+       $ git remote set-url origin https://github.com/yougi8/changed.git  
+       
+   -> 내 repository 이름이 changed로 바뀌었고, 그에 따라 연결된 주소도 changed로 변경시켜줌.
       
       
          
