@@ -88,6 +88,28 @@ repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있
        $ git remote set-url origin https://github.com/yougi8/changed.git  
        
    -> 내 repository 이름이 changed로 바뀌었고, 그에 따라 연결된 주소도 changed로 변경시켜줌.
+   
+   
+### 11. commit 취소  
+ * bash에서 삭제하고 강제로 push한다.  
+      1.  
+
+       $ git reset HEAD^  
+       
+   -> 가장 최근에 한 commit 기록을 삭제한다.  
+      2.
+
+       $ git commit -m "cancle"  
+       
+   -> commit시 나타낼 메시지 입력한다.  
+      3.
+   
+       $ git push origin main -f  
+       
+   -> repository에 push한다.  
+
+
+   
       
       
          
