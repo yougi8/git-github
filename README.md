@@ -90,7 +90,7 @@ repository를 clone했다면 fetch와 push가 됐다는 것을 확인할 수 있
    -> 내 repository 이름이 changed로 바뀌었고, 그에 따라 연결된 주소도 changed로 변경시켜줌.
    
    
-### 11. commit 취소  
+### 11. commit/push 취소  
  * bash에서 삭제하고 강제로 push한다.  
 
        $ git reset HEAD^  
